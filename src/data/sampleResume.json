@@ -1,0 +1,39 @@
+{
+  "personalInfo": {
+    "name": "Jane Doe",
+    "email": "jane@example.com",
+    "phone": "+91 9876543210",
+    "location": "Mumbai, India",
+    "links": ["https://linkedin.com/in/janedoe"]
+  },
+  "summary": "Results-driven software engineer...",
+  "education": [
+    {
+      "degree": "B.Tech Computer Science",
+      "school": "IIT Bombay",
+      "year": "2022"
+    }
+  ],
+  "workExperience": [
+    {
+      "title": "Frontend Developer",
+      "company": "Tech Co",
+      "duration": "2022 - Present",
+      "description": "Developed scalable web apps..."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Resume Builder",
+      "description": "A React-based resume builder app."
+    }
+  ],
+  "skills": {
+    "Languages": ["JavaScript", "Python"],
+    "Frameworks": ["React", "Node.js"]
+  },
+  "certifications": ["AWS Certified Developer"],
+  "awards": ["Best Student Award"],
+  "languages": ["English", "Hindi"],
+  "interests": ["Coding", "Music"]
+}
