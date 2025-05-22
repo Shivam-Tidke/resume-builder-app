@@ -1,6 +1,8 @@
+import { useRef } from "react";
 
+export default function ImportExport({ resume, setResume }) {
+  const fileInput = useRef();
 
-function ImportExport({ resume, setResume }) {
   function handleImport(e) {
     const file = e.target.files[0];
     if (!file) return;
@@ -18,11 +20,26 @@ function ImportExport({ resume, setResume }) {
   }
 
   return (
-    <div className="mb-4 flex gap-2">
-      <input type="file" accept=".json" onChange={handleImport} />
-      <button onClick={handleExport} className="btn btn-secondary">Export JSON</button>
+    <div className="mb-4 flex gap-2 items-center">
+      <input
+        type="file"
+        accept=".json"
+        ref={fileInput}
+        onChange={handleImport}
+        style={{ display: "none" }}
+      />
+      <button
+        className="px-2 py-1 border rounded"
+        onClick={() => fileInput.current.click()}
+      >
+        Import JSON
+      </button>
+      <button
+        className="px-2 py-1 border rounded"
+        onClick={handleExport}
+      >
+        Export JSON
+      </button>
     </div>
   );
 }
-
-export default ImportExport;
