@@ -1,12 +1,25 @@
-# React + Vite
+# React Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, customizable Resume Builder web app built with React, Vite, and Tailwind CSS.  
+Edit, preview, import/export, and print your resume – all in real time!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Live Resume Preview:** Instantly see changes as you edit.
+- **Section Editing:** Modify Personal Info, Summary, Education, Experience, Projects, Skills, and more.
+- **Theme Customization:** Toggle light/dark mode, pick your primary color, and select fonts (Roboto, Merriweather, etc).
+- **Multiple Templates:** Switch between at least two resume layouts.
+- **Import/Export:** Upload a JSON file to populate your resume or export your current resume as JSON.
+- **Print to PDF:** Print or save only the preview section as a PDF.
+- **Mobile Responsive:** Works on all screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [react-to-print](https://www.npmjs.com/package/react-to-print)
