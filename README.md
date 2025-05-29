@@ -1,4 +1,4 @@
-# React Resume Builder
+# Resume Builder App
 
 A modern, customizable Resume Builder web app built with React, Vite, and Tailwind CSS.  
 Edit, preview, import/export, and print your resume – all in real time!
