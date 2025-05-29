@@ -19,7 +19,7 @@ Edit, preview, import/export, and print your resume – all in real time!
 
 ##  Tech Stack
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [react-to-print](https://www.npmjs.com/package/react-to-print)
+- React
+- Vite
+- Tailwind CSS
+- react-to-print
